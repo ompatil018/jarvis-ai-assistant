@@ -1,0 +1,41 @@
+# ─── Jarvis AI Assistant — Requirements ──────────────────────────────────────
+# Install: pip install -r requirements.txt
+#
+# NOTE: pyaudio requires Python <=3.12. On Python 3.13+, Jarvis runs in
+# text-only mode automatically (GUI text input + CLI both work fully).
+
+# ── Core LLM ─────────────────────────────────────────────────────────────────
+openai>=1.30.0
+groq>=0.9.0
+
+# ── Speech Recognition ────────────────────────────────────────────────────────
+SpeechRecognition>=3.10.0
+faster-whisper>=1.0.0
+# pyaudio>=0.2.14   # Uncomment only if Python <=3.12
+
+# ── Text-to-Speech ────────────────────────────────────────────────────────────
+pyttsx3>=2.90
+gTTS>=2.5.0
+# pygame>=2.5.0     # Uncomment for gTTS audio playback
+
+# ── HTTP & Web ────────────────────────────────────────────────────────────────
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+wikipedia-api>=0.6.0
+lxml>=4.9.0
+
+# ── Utilities ─────────────────────────────────────────────────────────────────
+python-dotenv>=1.0.0
+pillow>=10.0.0
+psutil>=5.9.0
+numpy>=1.24.0
+pywin32>=306; sys_platform == "win32"
+
+# ── Testing ───────────────────────────────────────────────────────────────────
+pytest>=7.0.0
+pytest-cov>=4.0.0
+
+# ── Optional ─────────────────────────────────────────────────────────────────
+# pvporcupine>=3.0.0   # Wake-word (needs Picovoice API key)
+# pyaudio>=0.2.14      # Microphone input (Python <=3.12 only)
+# pygame>=2.5.0        # For gTTS audio playback

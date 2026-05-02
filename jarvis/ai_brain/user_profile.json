@@ -1,0 +1,47 @@
+{
+  "name": "Sir",
+  "preferred_language": "auto",
+  "created_at": "2026-01-01T00:00:00",
+  "last_seen": "2026-05-02T18:17:28.306310",
+  "interaction_count": 25,
+  "favorite_apps": [],
+  "favorite_sites": [
+    "youtube",
+    "YouTube"
+  ],
+  "command_frequency": {
+    "¡hey jarvis!": 1,
+    "hele gelmiş": 1,
+    "what is your name?": 1,
+    "आबकानाऺान हैणा मिल क।": 1,
+    "υαρύς": 1,
+    "hii jarvis": 1,
+    "open you tube": 1,
+    "ready to wrap up for the day?": 1,
+    "hii": 2,
+    "what about the python?": 1,
+    "hello guys": 1,
+    "open youtube.": 1,
+    "о бань кром!": 1,
+    "opening youtube": 1,
+    "この動画を見てくれてありがとう。": 1,
+    "losing youtube": 1,
+    "hello darius": 1,
+    "opening you do": 1,
+    "それでは、オープニングyoutube": 1,
+    "hello": 1,
+    "what is python": 1,
+    "what is here?": 1,
+    "what is ai": 1,
+    "okay, i'm 22 years old, i'm 22 years old, i'm 22 y": 1
+  },
+  "preferences": {
+    "tts_speed": 175,
+    "tts_volume": 0.9,
+    "wake_sensitivity": "medium",
+    "suggestions_enabled": true,
+    "dark_mode": true,
+    "city": "Mumbai"
+  },
+  "notes": []
+}
